@@ -13,6 +13,7 @@ const SignUp=()=>{
         const [error2, setError2]=useState("");
             const [error3, setError3]=useState("");
                 const [error4, setError4]=useState("");
+    const [label, setLable]=useState("" );
 
     const submits=(b)=>{
         b.preventDefault();
